@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="recipegopi.css">
+    <title>Recipe Book</title>
+</head>
+<body>
+    <header>
+        <h1>Recipe Book</h1>
+
+    </header>
+    <main>
+<h2 color="red";>my recipe book<h2>
+<p>hii guys this my first recipe about spaghetti bologness.This is one of the noddles type .In this blog you have to shaare your recipe.</p>
+        <div id="recipe-list">
+        </div>>
+            <a href=https://images.immediate.co.uk/production/volatile/sites/30/2020/08/the-best-spaghetti-bolognese-7e83155.jpg?quality=90&webp=true&resize=440,400>gopi</a><br><img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/the-best-spaghetti-bolognese-7e83155.jpg?quality=90&webp=true&resize=440,400">
+<h3 align center>spaghatti bolohgness</h3>
+        </div>
+        <button id="add-recipe-btn">Add Recipe</button>
+    </main>
+
+    <!-- Add Recipe Modal -->
+    <div id="add-recipe-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Add Recipe</h2>
+            <form id="add-recipe-form">
+                <label for="recipe-name">Name:</label>
+                <input type="text" id="recipe-name" required>
+                
+                <label for="recipe-ingredients">Ingredients:</label>
+                <textarea id="recipe-ingredients" required></textarea>
+                
+                <label for="recipe-instructions">Instructions:</label>
+                <textarea id="recipe-instructions" required></textarea>
+
+                <button type="submit">Save Recipe</button>
+<div>
+<button id="delete_recipe_btn">delete recipe</button><br>
+<button id="edit_recipe_btn">edit recipe</button>
+    <div id="add-recipe-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3> delete Recipe</h3>
+            <form id="delete-recipe-form">
+                <label for="recipe-name">Name:</label>
+                <input type="text" id="recipe-name" required>
+                
+              
+          
+
+                <button type="submit">delete Recipe</button>
+            </form>
+</div>
+        </div>
+    </div>
+
+    <script src="recipegopi.js"></script>
+</body>
+</html>
